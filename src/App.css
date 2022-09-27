@@ -35,6 +35,7 @@ body{
     width: 200px;
     border-radius: 50%;
     margin-top: 100px;
+    
 }
 
 .circle--container p{
@@ -43,7 +44,7 @@ body{
     font-size: 100px;
     position: absolute;
     top: -60px;
-    left: 75px;
+    left: 70px;
 }
 
 .buttons--container{
@@ -65,4 +66,8 @@ button {
     border-radius: 5px;
     background-color: #4E3A9B;
     color: white;
+}
+
+button:active{
+    border: 1px solid #4D65CC;
 }
